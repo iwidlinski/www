@@ -1,0 +1,111 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Wawanesa Insurance
+    url: "https://www.wawanesa.com/canada/"
+    location: Canada
+    logo: /images/sections/experiences/Wawanesa_tree_blue.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: The Wawanesa Mutual Insurance Company, founded in 1896, is one of Canada’s largest mutual insurers, with over $4 billion in annual revenue and assets of 12 billion.
+  positions:
+  - designation: Senior Security Systems Administrator
+    start: June 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Deploying and maintaining servers in AWS with CloudFormation.
+    - Developing strategies and plans to enforce security requirements and address identified risks.
+    - Configuring security systems, analyzing security requirements, and recommending improvements.
+    - Managing 5000+ endpoints using industry best anti-malware, DLP, and PAM services.
+
+- company:
+    name: Sanctuary AI.
+    url: "https://www.sanctuary.ai"
+    location: Canada
+    logo: /images/sections/experiences/sanctuary-ai-logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Sanctuary AI is on a mission to create and deploy millions of industrial-grade humanoid robots to help address growing labor challenges.
+  positions:
+  - designation: Cloud System Administrator
+    start: Jan 2023
+    end: Jun  2023
+    responsibilities:
+    - Implementing CI/CD capabilities for infrastructure and applications.
+    - Contributing to the architecting and implementation of cloud-native and cloud migration solutions.
+    - Writing infrastructure automation scripts and templates and integrating them with DevOps tools.
+    - Infrastructure as Code using AWS CDK.
+
+- company:
+    name: Zymeworks Inc.
+    url: "https://www.zymeworks.com"
+    location: Canada
+    logo: /images/sections/experiences/zymeworks-logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Developing novel medicines for patients with difficult-to-treat cancers and other serious diseases.
+  positions:
+  - designation: Senior Systems Administrator
+    start: March 2013
+    end: January 2023
+    responsibilities:
+    - Migrated on premise datacenter to AWS.
+    - Managed cloud ( AWS / Azure ) infrastructure.
+    - Salt / Puppet / Terraform configuration management.
+    - Created Gitlab CI/CD pipelines.
+    - Zabbix monitoring and created Grafana dashboards.
+    - Single Sign on using Azure AD / SAML / ADFS and various MFA solutions.
+    - Created auto-scalable High Performance Computational Cluster (GridEngine) in AWS.
+    - Worked with various storage technologies including NFS / AWS Lustre / Netapp.
+    - Managed	Meraki / Palo Alto / Juniper networking.
+
+- company:
+    name: Incomm Canada Prepaid Ltd.
+    url: "https://www.incomm.com/"
+    location: Canada
+    logo: /images/sections/experiences/incomm-logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Incomm is the industry leading marketer, distributor and technology innovator of stored-value gift and prepaid products.
+  positions:
+  - designation: ILinux Systems Administrator
+    start: October 2011
+    end: March 2013
+    responsibilities:
+    - Created OS hardening scripts for PCI (Payments Card Industry) certification.
+    - Server configuration, installation & maintenance (RHEL 5,6 and Solaris Patches and Firmware Updates).
+    - Troubleshooting outages and coordinating resolutions with external entities.
+    - Created OS update strategy for company’s older software/hardware.
+
+- company:
+    name: Eigen Development Ltd.
+    url: "https://eigenpayments.com/"
+    location: Canada
+    logo: /images/sections/experiences/eigendev-logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Successful transaction processing company dedicated to the task of managing payments for merchants.
+  positions:
+  - designation: Linux Systems / Network Administrator
+    start: July 2008
+    end: October 2011
+    responsibilities:
+    - Server configuration, installation, & maintenance (Ubuntu). 
+    - Implementation/maintenance of VoIP server (Asterisk PBX) & all VoIP phones
+    - Designed, supervised and implemented major power and environmental upgrade to the server room
+    - Implementation of disaster recovery plan & daily back ups
+    - Collaborate with developers for debugging and systems related issues
+    - Performed network and application security testing as part of Payment Card Industry (PCI) certification.

@@ -1,0 +1,83 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Infrastructure, Devops, and CyberSecurity specialist
+# your company information
+#company:
+#  name: Example Co.
+#  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate infrastructure, devops and cybersecurity specialist with 17 years of working experience. I create automated secure infrastructure as code, that is resilient, scalable, and reproducible.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "igor@widlin.ski"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/iwidlinski"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/igorwidlinski/"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified Information Systems Security Professional (CISSP)
+  url: "https://www.credly.com/badges/2649289f-e65d-43d0-8f82-277ba3e6fde4"
+  badge: "https://images.credly.com/size/680x680/images/6eeb0a98-33cb-4f72-bfc3-f89d65a3286c/image.png"
+
+- type: certification
+  name: Certified Cloud Security Professional (CCSP)
+  url: "https://www.credly.com/badges/a81a14fe-ec39-4144-9629-796197b47d96"
+  badge: "https://images.credly.com/size/680x680/images/38b12225-5b48-44e1-8750-20928cc595ea/image.png"
+
+- type: certification
+  name: Artificial Intelligence and Machine Learning
+  url: "https://www.credly.com/badges/6d4825d2-f1fe-441c-aa53-3f2eb36fc7ab"
+  badge: "https://images.credly.com/size/680x680/images/e93d2677-5e82-4736-8c2b-7482363ea056/CompTIA_Linux_2B.png"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
