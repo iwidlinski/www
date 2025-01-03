@@ -15,6 +15,8 @@ This is a sample post intended to test the followings:
 
 - Default hero image.
 - Different shortcodes.
+## Emoji
+:grinning:
 
 ## Alert
 

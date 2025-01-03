@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/iwidlinski/hugo-toha.github.io
+  gitRepo: https://github.com/iwidlinski/www
   # Default branch of your Git repo
   gitBranch: main
 
@@ -301,3 +301,8 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: false
+
+security:
+  enableInlineShortcodes: true
+  
+enableEmoji: true
