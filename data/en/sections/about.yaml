@@ -36,6 +36,10 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/igorwidlinski/"
 
+- name: Credly 
+  icon: "fas fa-graduation-cap"
+  url: "https://www.credly.com/users/igor-widlinski"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
@@ -61,6 +65,11 @@ badges:
   url: "https://www.credly.com/badges/6d4825d2-f1fe-441c-aa53-3f2eb36fc7ab"
   badge: "https://images.credly.com/size/680x680/images/e93d2677-5e82-4736-8c2b-7482363ea056/CompTIA_Linux_2B.png"
 
+- type: certification
+  name: AWS Certified Solutions Architect – Associate
+  url: "https://www.credly.com/badges/bb379316-482d-47c9-8da7-08f8f8d39a53"
+  badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
 - type: soft-skill-indicator
   name: Leadership
   percentage: 85
@@ -70,11 +79,6 @@ badges:
   name: Team Work
   percentage: 90
   color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
