@@ -9,7 +9,7 @@ menu:
     weight: 30
 tags: ["aws", "certification"]
 categories: ["aws"]
-draft: true
+draft: false
 ---
 As mentioned [initially here]({{<ref "aws-first-post#enable-iam-identity-center---organization">}}) I was having trouble finding a way to enable [organization instance of Identity Center]("https://docs.aws.amazon.com/singlesignon/latest/userguide/organization-instances-identity-center.html") using some form of automated way ( either through aws cli, or cdk, or whatever). 
 
