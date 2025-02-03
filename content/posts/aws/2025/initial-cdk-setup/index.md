@@ -9,6 +9,7 @@ menu:
     weight: 20
 tags: ["aws", "certification", "cdk"]
 categories: ["aws"]
+hero: aws-cdk.webp
 draft: false
 ---
 ### Installing CDK
