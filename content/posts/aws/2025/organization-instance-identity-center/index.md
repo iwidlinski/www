@@ -6,7 +6,7 @@ menu:
     name: "Organization instance Identity Center"
     identifier: "organization-instance-identity-center"
     parent: AWS-2025
-    weight: 10
+    weight: 30
 tags: ["aws", "certification"]
 categories: ["aws"]
 draft: true

@@ -6,7 +6,7 @@ menu:
     name: "Initial Cdk Setup"
     identifier: "initial-cdk-setup"
     parent: AWS-2025
-    weight: 10
+    weight: 20
 tags: ["aws", "certification", "cdk"]
 categories: ["aws"]
 draft: false
