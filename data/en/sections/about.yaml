@@ -66,19 +66,16 @@ badges:
   badge: "https://images.credly.com/size/680x680/images/e93d2677-5e82-4736-8c2b-7482363ea056/CompTIA_Linux_2B.png"
 
 - type: certification
+  name: AWS Certified Solutions Architect – Professional
+  url: "https://www.credly.com/badges/b4045255-f784-4b4e-bb44-c5feb0d1fd62"
+  badge: "https://images.credly.com/size/680x680/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
+
+
+- type: certification
   name: AWS Certified Solutions Architect – Associate
   url: "https://www.credly.com/badges/bb379316-482d-47c9-8da7-08f8f8d39a53"
   badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
