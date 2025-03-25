@@ -9,7 +9,7 @@ menu:
     weight: 50
 tags: ["aws", "certification", "sap-c02"]
 categories: ["aws"]
-draft: true
+draft: false
 ---
 Last Friday I passed [SAP-C02](https://aws.amazon.com/certification/certified-solutions-architect-professional/) the **AWS Solution Architect - Professional** exam. 
 
