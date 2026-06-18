@@ -14,7 +14,7 @@ hero: hero.png
 ---
 As mentioned [initially here]({{<ref "aws-first-post#enable-iam-identity-center---organization">}}) I was having trouble finding a way to enable [organization instance of Identity Center]("https://docs.aws.amazon.com/singlesignon/latest/userguide/organization-instances-identity-center.html") using some form of automated way ( either through aws cli, or cdk, or whatever). 
 
-Back then, I did not enable it, hoping I could find a way to do it using code. Since then, i've spent some time researching this, and I found some documents ( which I lost...) that seemed to imply this can only be enabled manually using the AWS Console. So going to do this now.
+Back then, I did not enable it, hoping I could find a way to do it using code. Since then, I've spent some time researching this, and I found some documents ( which I lost...) that seemed to imply this can only be enabled manually using the AWS Console. So going to do this now.
 
 ![local](enable-org-identity-center.png)
 

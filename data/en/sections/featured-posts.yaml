@@ -8,5 +8,5 @@ section:
 
 # posts to feature
 posts:
-  - markdown-sample
-  - shortcodes
+  - /posts/aws/2025/sap-c02
+  - /posts/aws/2025/aws-first-post

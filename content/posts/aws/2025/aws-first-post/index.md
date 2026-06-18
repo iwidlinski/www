@@ -46,9 +46,9 @@ iwidlinski@DESKTOP-REPDB09:~/.aws$
 
 ### Enable aws cli command completion
 
-As per [aws documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-completion.html). I never used it but lets try it.
+As per [aws documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-completion.html). I never used it but let's try it.
 
-Turns out that its pretty easy to turn this feature on.
+Turns out that it's pretty easy to turn this feature on.
 
 ```bash
 complete -C '/usr/local/bin/aws_completer' aws
@@ -67,13 +67,13 @@ iwidlinski@DESKTOP-REPDB09:~/.aws$ aws dynamodb delete-table --
 ```
 
 
-### Command completiong vs command prompt
+### Command completion vs command prompt
 Turns out `aws cli v2` has a [command prompt](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-parameters-prompting.html) which looks very much like command completion, but it is built into the cli...
 
 Will stick with command completion for now, not too sure which one is best.
 
 ### Enable IAM Identity Center - organization
 
-I have no idea how to enable this in CLI/SDK/Boto so for the sake of saving time, I'll enable the organization instance of Identiy Center using the AWS Console...
+I have no idea how to enable this in CLI/SDK/Boto so for the sake of saving time, I'll enable the organization instance of Identity Center using the AWS Console...
 
 ![local](enable-identiy-center-console.png)
