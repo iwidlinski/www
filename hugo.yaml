@@ -1,6 +1,6 @@
 baseURL: https://widlin.ski
 
-languageCode: en
+locale: en
 title: "Igor's Blog"
 
 # Use Hugo modules to add theme
@@ -21,8 +21,8 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
-    languageName: English
+    locale: en
+    label: English
     title: "Igor's Blog"
     weight: 1
 
@@ -304,5 +304,3 @@ params:
 
 security:
   enableInlineShortcodes: true
-  
-enableEmoji: true
