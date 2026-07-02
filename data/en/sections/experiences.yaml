@@ -11,6 +11,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: IREN
+    url: "https://iren.com"
+    location: Canada
+    logo: /images/sections/experiences/iren-logo.svg
+    overview: IREN is a next-generation data center company, building and operating 100% renewable-powered data centers for AI Cloud, GPU clusters, colocation, and HPC workloads.
+  positions:
+  - designation: System Engineer
+    start: Apr 2025
+    responsibilities:
+    - Automated bare-metal deployment of NVIDIA (B300/B200/H200/H100) and AMD (MI355X/MI300X) GPU fleets across multiple data-center sections (~1,000+ GPUs each) — OS imaging, configuration management, and out-of-band (BMC/Redfish) management.
+    - Validated GPUs at scale (NCCL/RCCL testing, burn-in, firmware) and resolved hardware faults fleet-wide; delivered production GPU clusters to external AI customers.
+    - Configured and troubleshot the InfiniBand fabric with NVIDIA UFM Enterprise — managed the subnet manager, topology/routing, and partition keys (pkeys) for tenant isolation; used UFM telemetry to diagnose congestion, link/port errors, and transceiver faults end to end.
+    - Operated multi-petabyte storage arrays from VAST, Weka, and Ceph.
+    - Owned the DCIM system of record — administered inventory-system access for the broader engineering org and led large-scale data-quality audits and remediation, reconciling inventory against live hardware across thousands of servers.
+
+- company:
     name: Wawanesa Insurance
     url: "https://www.wawanesa.com/canada/"
     location: Canada
@@ -22,8 +38,7 @@ experiences:
   positions:
   - designation: Senior Security Systems Administrator
     start: June 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Apr 2025
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Deploying and maintaining servers in AWS with CloudFormation.

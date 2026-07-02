@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Infrastructure, Devops, and CyberSecurity specialist
+designation: "HPC Systems Engineer @ IREN | GPU Cloud · Bare-metal Kubernetes · Slurm · InfiniBand · NVIDIA/AMD Fleets"
 # your company information
 #company:
 #  name: Example Co.
@@ -19,7 +19,7 @@ designation: Infrastructure, Devops, and CyberSecurity specialist
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate infrastructure, devops and cybersecurity specialist with 17 years of working experience. I create automated secure infrastructure as code, that is resilient, scalable, and reproducible.'
+summary: 'I build and operate the infrastructure behind large-scale AI compute — taking GPU data centers from bare metal to production: provisioning thousands of NVIDIA and AMD GPUs, automating the full server lifecycle, and running the networking, scheduling, Kubernetes, and storage platforms that AI customers run on. I focus on reproducible, infrastructure-as-code systems that keep large GPU fleets reliable at scale.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

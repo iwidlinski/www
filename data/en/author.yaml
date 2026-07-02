@@ -14,7 +14,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I love Cloud
-  - I am a Devops
-  - I love servers
-  - I love to work with some fun projects
+  - I build GPU clouds
+  - I take data centers from bare metal to production
+  - I run Kubernetes, Slurm, and InfiniBand at scale
+  - I keep large GPU fleets reliable
