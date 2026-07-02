@@ -40,7 +40,7 @@ There are no tests or lint for site content; verification = a clean `hugo --gc -
 ## Architecture
 
 - **`hugo.yaml`** — site config; theme features toggle under `params.features` (notes and comments are disabled; portfolio/blog enabled)
-- **`data/en/`** — drives the homepage. `author.yaml` is the hero section; `sections/*.yaml` are the homepage sections, each with a `section.enable` flag and `weight` ordering. **Note:** `education`, `projects`, `skills`, `publications`, `achievements`, `accomplishments` still contain Toha's demo/lorem-ipsum data and are deliberately kept `enable: false` as scaffolding — don't mistake them for real data, and don't enable them without replacing the content. `about.yaml` and `experiences.yaml` are real.
+- **`data/en/`** — drives the homepage. `author.yaml` is the hero section; `sections/*.yaml` are the homepage sections, each with a `section.enable` flag and `weight` ordering. All remaining sections (`about`, `experiences`, `featured-posts`, `recent-posts`) are real data; Toha's demo section files (education, projects, skills, etc.) and their images were removed — to add such a section back, copy the template from the theme's exampleSite.
 - **`data/en/sections/featured-posts.yaml`** — lists posts by path (e.g. `/posts/aws/2025/sap-c02`), resolved via `site.GetPage`; a bad path silently renders nothing
 - **`content/posts/<category>/<year>/<slug>/index.md`** — page bundles with images alongside. Front matter uses Toha's sidebar menu: `menu.sidebar` with an `identifier` and a `parent` matching a category `_index.md` identifier (e.g. `AWS-2025`). `archetypes/default.md` defaults new posts to the AWS-2025 parent with `draft: true`.
 - **`static/CNAME`** — the custom domain for GitHub Pages; don't remove
