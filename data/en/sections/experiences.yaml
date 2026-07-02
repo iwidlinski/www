@@ -20,7 +20,7 @@ experiences:
   - designation: System Engineer
     start: Apr 2025
     responsibilities:
-    - Automated bare-metal deployment of NVIDIA (B300/B200/H200/H100) and AMD (MI355X/MI300X) GPU fleets across multiple data-center sections (~1,000+ GPUs each) — OS imaging, configuration management, and out-of-band (BMC/Redfish) management.
+    - Automated bare-metal deployment of NVIDIA (B300/B200/H200/H100) and AMD (MI355X/MI350X) GPU fleets across multiple data-center sections (~1,000+ GPUs each) — OS imaging, configuration management, and out-of-band (BMC/Redfish) management.
     - Validated GPUs at scale (NCCL/RCCL testing, burn-in, firmware) and resolved hardware faults fleet-wide; delivered production GPU clusters to external AI customers.
     - Configured and troubleshot the InfiniBand fabric with NVIDIA UFM Enterprise — managed the subnet manager, topology/routing, and partition keys (pkeys) for tenant isolation; used UFM telemetry to diagnose congestion, link/port errors, and transceiver faults end to end.
     - Operated multi-petabyte storage arrays from VAST, Weka, and Ceph.
